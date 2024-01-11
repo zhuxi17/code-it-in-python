@@ -1,0 +1,22 @@
+/ 총 다섯가지 과자가 있다
+kikat : 190 kcal
+oreos : 502 kcal
+printgles : 292 kcal
+twix : 135.9 kcal
+cheetos : 485 kcal
+
+과자를 다양하게 조합해서 먹었을 때 총 몇 칼로리인지 계산
+각 과자의 이름을 변수 이름으로 사용하여, 해당 과자의 칼로리 저장/
+
+# 코드
+  kikat = 190
+  oreos = 502
+  pringles = 292
+  twix = 135.9
+  cheetos = 485
+
+# 다양한 과자 조합
+print(kikat + oreos * 2)
+print(cheetos * 4)
+print(printgles + oreos + twix)
+print(pringles * 3 + oreos * 2)
